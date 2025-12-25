@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analytics Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Analytics Dashboard</h1>
+
+    <h2>Class Summary</h2>
+    <div id="summary">
+        <p>Total Students: <span id="totalStudents"></span></p>
+        <p>Pass Percentage: <span id="passPercentage"></span>%</p>
+        <p>Class Average: <span id="classAverage"></span>%</p>
+        <p>Top Performer: <span id="topStudent"></span></p>
+    </div>
+
+    <h2>Subject Difficulty</h2>
+    <canvas id="subjectChart" width="600" height="400"></canvas>
+
+    <h2>Pass / Fail Distribution</h2>
+    <canvas id="passChart" width="600" height="400"></canvas>
+
+    <script src="js/analytics.js"></script>
+</body>
+</html>
